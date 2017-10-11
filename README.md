@@ -1,1 +1,2 @@
 # Guitar-Effects
+Christopher Burke
