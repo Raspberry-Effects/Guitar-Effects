@@ -1,0 +1,27 @@
+#N canvas 667 23 744 524 10;
+#X obj 35 76 delwrite~ vibrato 50;
+#X obj 38 264 osc~ 2;
+#X obj 38 301 *~ 1;
+#X obj 38 334 +~ 2;
+#X obj 37 381 vd~ vibrato;
+#X obj 244 358 * 2;
+#X obj 272 390 +;
+#X floatatom 272 445 5 0 0 0 - - -, f 5;
+#X obj 35 33 inlet~;
+#X obj 38 210 inlet;
+#X obj 230 211 inlet;
+#X obj 38 434 outlet~;
+#X text 96 127 Citation: https://guitarextended.wordpress.com/2012/01/07/vibrato-with-pure-data/
+;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 11 0;
+#X connect 5 0 6 0;
+#X connect 5 0 3 1;
+#X connect 6 0 7 0;
+#X connect 8 0 0 0;
+#X connect 9 0 1 0;
+#X connect 10 0 2 1;
+#X connect 10 0 5 0;
+#X connect 10 0 6 1;
