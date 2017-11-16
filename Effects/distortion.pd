@@ -1,0 +1,12 @@
+#N canvas 923 174 564 367 10;
+#X obj 150 140 *~ 40;
+#X obj 151 191 clip~ -0.5 0.5;
+#X text 12 6 Patch taken from: https://guitarextended.wordpress.com/2011/12/28/simple-fuzz-effect-with-pure-data/
+;
+#X obj 149 90 inlet~;
+#X obj 152 238 outlet~;
+#X text 274 91 The sound is distorted by amplifying it before applying
+hard-clipping.;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 3 0 0 0;
