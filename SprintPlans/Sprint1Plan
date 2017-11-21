@@ -1,0 +1,58 @@
+Sprint 1 Plan
+Audio Processing
+Guitar Effects
+Monday, October 23, 2017
+Revision 0.01 on Monday, October 23, 2017
+
+Goal: For Sprint 1, we want to become familiar with the visual programming language, PureData, to prepare for the sound effect production in Sprint 2.
+
+Task listing organized by user story: 
+As a developer, I want to be familiar with the technologies we will be using.
+Download PureData (10 min)
+Setup GitHub Repository (10 min)
+Complete PureData tutorials (8 hours)
+Setup Google Drive (10 min)
+Setup Trello boards (1 hour)
+Setup Slack page (30 min)
+Total for user story 1: 10 hours
+As a guitarist, I want an affordable piece of hardware as my audio engine.
+Install PureData on Raspberri Pi (10 min)
+Total for user story 2: 10 minutes
+As a product owner, I want to be able to see a clear description of the product.
+As a product owner, I want to see a well thought out plan for achieving the product.
+Setup meet time with TA (5 min)
+Setup meeting times (10 min)
+Total for user story 4: 15 minutes
+
+Team roles: 
+Malcolm Flint: Product Owner, Developer
+Nima Shariat: Scrum Master, Developer
+Christopher Burke: Developer
+Eduardo Chavez: Developer
+Bernard Balagot: Developer (Include Bernard in Sprint 1 plan?) 
+
+Initial task assignment:
+Malcolm Flint: 
+As a developer, I want to be familiar with the technologies we will be using.
+Download PureData, complete PureData tutorials, setup Google Drive, setup GitHub, setup Slack page
+As a guitarist, I want an affordable piece of hardware as my audio engine.
+Install PureData on Raspberri Pi
+Nima Shariat:
+As a developer, I want to be familiar with the technologies we will be using.
+Download PureData, complete PureData tutorials, setup Trello boards, setup GitHub
+As a product owner, I want to see a well thought out plan for achieving the product.
+Setup meeting times
+Christopher Burke:
+As a developer, I want to be familiar with the technologies we will be using.
+Download PureData, complete PureData tutorials, setup GitHub
+Eduardo Chavez:
+As a developer, I want to be familiar with the technologies we will be using.
+Download PureData, complete PureData tutorials, setup GitHub
+Bernard Balagot:
+As a developer, I want to be familiar with the technologies we will be using.
+Download PureData, complete PureData tutorials
+
+Scrum times:
+Monday/Wednesday/Friday 11:45AM – 12:00PM with team
+Tuesday 10:00AM – 10:25AM with TA
+
