@@ -31,6 +31,9 @@
 #X obj 23 30 inlet;
 #X obj 154 30 inlet;
 #X obj 223 31 inlet;
+#X text 23 189 1st Inlet - On/Off;
+#X text 23 202 2nd Inlet - Record;
+#X text 23 216 3rd Inlet - Clear;
 #X connect 1 0 0 0;
 #X connect 1 0 6 0;
 #X connect 1 1 2 0;
