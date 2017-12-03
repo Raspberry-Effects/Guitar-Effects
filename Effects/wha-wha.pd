@@ -1,33 +1,8 @@
 #N canvas 467 126 860 599 10;
-#X obj 250 513 vcf~;
 #X obj 167 135 adc~;
 #X obj 163 568 dac~;
-#X floatatom 341 477 5 0 0 0 - - -, f 5;
-#X obj 341 344 vsl 15 128 0 20 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3366 1;
-#X obj 316 155 +~ 1;
-#X obj 317 176 *~ 0.5;
-#X obj 316 134 osc~ 2;
-#X obj 418 211 hsl 128 15 700 6000 0 0 empty empty empty -2 -8 0 10
--262144 -1 -1 0 1;
-#X obj 372 284 hsl 128 15 0 700 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
-#X floatatom 369 303 6 0 0 0 - - -, f 6;
-#X floatatom 370 245 6 0 0 0 - - -, f 6;
-#X obj 370 226 -;
-#X obj 370 204 bang;
-#X obj 270 310 +~ 200;
-#X obj 269 228 *~ 1500;
-#X text 367 151 <-- LFO (Low-Frequency Oscillator;
-#X text 551 209 <-- Maximum of the freq. range;
-#X text 505 281 <-- Minimum of the freq. range;
-#X text 378 434 <-- "Q";
 #X text 289 514 <-- Voltage-Controlled band-pass filter;
-#X obj 324 102 hsl 128 15 0.5 4 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
 #X text 577 575 Pierre Massat \, GuitarExtended \, 2012.s;
-#X obj 413 335 loadbang;
-#X msg 411 360 5.3;
 #X text 26 29 Patch taken from:;
 #X text 26 40 https://guitarextended.wordpress.com/2012/01/07/wha-wha-auto-with-pure-data/
 ;
@@ -35,23 +10,14 @@
 #X obj 252 140 inlet~;
 #X text 118 151 removed from -->;
 #X text 124 551 removed from ->;
-#X connect 0 0 27 0;
-#X connect 4 0 3 0;
-#X connect 4 0 0 2;
-#X connect 5 0 6 0;
-#X connect 6 0 15 0;
-#X connect 7 0 5 0;
-#X connect 8 0 12 0;
-#X connect 9 0 10 0;
-#X connect 9 0 12 1;
-#X connect 9 0 13 0;
-#X connect 9 0 14 1;
-#X connect 12 0 11 0;
-#X connect 12 0 15 1;
-#X connect 13 0 12 0;
-#X connect 14 0 0 1;
-#X connect 15 0 14 0;
-#X connect 21 0 7 0;
-#X connect 23 0 24 0;
-#X connect 24 0 4 0;
-#X connect 28 0 0 0;
+#X obj 274 436 inlet;
+#X obj 274 458 mtof;
+#X obj 329 460 inlet;
+#X obj 250 513 bp~;
+#X obj 329 482 / 10;
+#X connect 7 0 13 0;
+#X connect 10 0 11 0;
+#X connect 11 0 13 1;
+#X connect 12 0 14 0;
+#X connect 13 0 6 0;
+#X connect 14 0 13 2;
