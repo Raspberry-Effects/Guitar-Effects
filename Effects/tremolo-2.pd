@@ -437,6 +437,11 @@
 #X obj 68 434 outlet~;
 #X obj 106 116 mtof;
 #X obj 106 149 / 100;
+#X text 102 65 Inlet for rate;
+#X text 173 137 Inlet for depth;
+#X text 9 80 Inlet audio;
+#X text 380 130 Citation: http://write.flossmanuals.net/pure-data/amplitude-modulation/
+;
 #X connect 0 0 2 0;
 #X connect 0 0 9 0;
 #X connect 1 0 11 0;

@@ -11,10 +11,13 @@
 #X obj 38 220 inlet;
 #X obj 230 211 inlet;
 #X obj 38 434 outlet~;
-#X text 96 127 Citation: https://guitarextended.wordpress.com/2012/01/07/vibrato-with-pure-data/
+#X text 30 468 Citation: https://guitarextended.wordpress.com/2012/01/07/vibrato-with-pure-data/
 ;
 #X obj 38 242 / 10;
 #X obj 231 235 / 50;
+#X text 32 15 Audio Inlet;
+#X text 35 193 Inlet for rate;
+#X text 227 188 Inlet for depth;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 3 0 4 0;
